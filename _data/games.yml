@@ -1,0 +1,16 @@
+- id: duskbanner
+  name: Duskbanner
+  genre: Pixel-art survivors-like · Android
+  tagline: Lead a hero and a growing army through endless nights of monster hordes.
+  icon: /assets/img/games/duskbanner/icon.png
+  page: /duskbanner/
+  privacy: /duskbanner/privacy.html
+  play_url: ""
+  accent: "#f0604c"
+  shots:
+    - src: /assets/img/games/duskbanner/shot-1.webp
+      alt: A commander and an army of allies fighting a zombie horde in the night forest
+    - src: /assets/img/games/duskbanner/shot-2.webp
+      alt: The knight's Sword Storm ultimate against skeletons and the Bone Lord in the graveyard
+    - src: /assets/img/games/duskbanner/shot-3.webp
+      alt: The monk's golden palm and a soul field on the frozen map

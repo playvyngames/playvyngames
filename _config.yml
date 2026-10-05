@@ -1,2 +1,8 @@
 title: PlayVyn Games
-description: Independent game studio.
+tagline: Indie pixel-art action games
+description: PlayVyn Games is an indie studio crafting pixel-art action games that are quick to learn, hard to master and fair to play.
+url: https://playvyngames.com
+email: support@playvyngames.com
+lang: en
+exclude:
+  - README.md

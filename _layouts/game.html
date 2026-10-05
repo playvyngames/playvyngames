@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign g = site.data.games | where: "id", page.game | first %}
+<section class="game-hero"{% if g.accent %} style="--accent: {{ g.accent }}"{% endif %}>
+  <div class="wrap game-hero__in">
+    <img class="game-hero__icon pixel" src="{{ g.icon | relative_url }}" alt="{{ g.name }} icon" width="168" height="168">
+    <div class="game-hero__text">
+      <p class="eyebrow">{{ g.genre }}</p>
+      <h1 class="pixel-title">{{ g.name }}</h1>
+      <p class="lede">{{ g.tagline }}</p>
+      {% include store.html game=g %}
+    </div>
+  </div>
+</section>
+{% if g.shots %}
+<section class="wrap section shots" aria-label="Screenshots">
+  {% for s in g.shots %}<a href="{{ s.src | relative_url }}"><img src="{{ s.src | relative_url }}" alt="{{ s.alt }}" width="1280" height="720" loading="lazy"></a>{% endfor %}
+</section>
+{% endif %}
+<article class="wrap prose prose--game">
+{{ content }}
+<p class="game-links">
+  <a href="{{ g.privacy | relative_url }}">Privacy policy</a>
+  <a href="mailto:{{ site.email }}?subject={{ g.name | uri_escape }}%20support">Support</a>
+  <a href="{{ '/#games' | relative_url }}">All games</a>
+</p>
+</article>

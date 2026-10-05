@@ -1,3 +1,9 @@
+---
+layout: page
+title: Privacy Policy — Duskbanner
+description: How the Android game Duskbanner by PlayVyn Games handles your data.
+---
+
 # Privacy Policy — Duskbanner
 
 *Last updated: 4 October 2026*
@@ -91,7 +97,7 @@ Duskbanner is intended for players aged 13 and over. It is not directed at child
 
 ### 9. Your rights
 
-Depending on where you live, you may have the right to access, correct or delete your personal data, and to object to or withdraw consent for its use.
+Depending on where you live, you may have the right to access, correct or delete your personal data, and to object to or withdraw consent for its use. This includes the EU GDPR.
 
 - The developer holds no personal data about you.
 - Play Games data is controlled through your Play Games profile and Google Account (links above).

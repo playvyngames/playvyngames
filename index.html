@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap hero__in">
+    <img class="hero__crest pixel" src="{{ '/assets/img/crest.png' | relative_url }}" alt="" width="172" height="204">
+    <h1 class="pixel-title">PlayVyn <span>Games</span></h1>
+    <p class="lede">{{ site.description }}</p>
+    <a class="btn" href="#games">Our games</a>
+  </div>
+</section>
+
+<section id="games" class="wrap section">
+  <h2 class="section-title">Games</h2>
+  <div class="cards">
+    {% for g in site.data.games %}
+    <article class="card">
+      <a class="card__media" href="{{ g.page | relative_url }}"><img class="pixel" src="{{ g.icon | relative_url }}" alt="{{ g.name }} icon" width="104" height="104" loading="lazy"></a>
+      <div>
+        <h3><a href="{{ g.page | relative_url }}">{{ g.name }}</a></h3>
+        <p class="meta">{{ g.genre }}</p>
+        <p>{{ g.tagline }}</p>
+        <div class="card__actions">
+          {% include store.html game=g %}
+          <a href="{{ g.privacy | relative_url }}">Privacy</a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="about" class="wrap section about">
+  <h2 class="section-title">About</h2>
+  <p>PlayVyn Games is an independent game studio. We make small, focused games that are quick to learn, hard to master and fair to play, with handcrafted pixel art and runs you can finish on a short break.</p>
+  <p>Every game has its own privacy policy that lists exactly what data it uses. Questions, bug reports or feedback: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+</section>
