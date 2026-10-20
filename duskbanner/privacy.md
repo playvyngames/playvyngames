@@ -6,7 +6,7 @@ description: How the Android game Duskbanner by PlayVyn Games handles your data.
 
 # Privacy Policy — Duskbanner
 
-*Last updated: 4 October 2026*
+*Last updated: 16 October 2026*
 
 This privacy policy explains how the game **Duskbanner** for Android, published on Google Play by **PlayVyn Games**, handles your data.
 
@@ -14,7 +14,7 @@ This privacy policy explains how the game **Duskbanner** for Android, published 
 
 ### Summary
 
-The developer of Duskbanner does not collect, store or sell your personal data. The game has no developer servers and no in-game accounts, and it sends nothing to the developer. The game uses two third-party services from Google:
+The developer of Duskbanner does not collect, store or sell your personal data. The game has no developer servers and no in-game accounts, and it sends nothing to the developer. The developer only receives something from you if you choose to email us (section 5). The game uses two third-party services from Google:
 
 - **Google Play Games Services** (optional sign-in), described in section 2;
 - **Google AdMob**, which shows **rewarded ads only when you choose to watch one**, described in section 3.
@@ -70,18 +70,24 @@ Google uses this data to show and measure ads, for analytics and to prevent frau
 
 Google Play may collect crash and performance reports (Android vitals) as allowed by your device settings. The developer uses them only to fix bugs and improve performance. These reports do not tell the developer who you are.
 
-### 5. What we do not do
+### 5. Support email and ratings
 
-- We do not collect your name, email address, phone number, precise location, contacts or photos.
+- **Support email.** If you tap **Settings → Support**, the game opens your own email app with a new message to [support@playvyngames.com](mailto:support@playvyngames.com). The message is pre-filled with technical details that help us fix problems: game version, Android version, device model, WebView version, screen size, language and graphics quality setting. Nothing is sent until you press send in your email app, and you can edit or delete any of it first. If you send it, we receive your email address, your message and those details, and use them only to answer you.
+- **Ratings.** **Settings → Rate us** opens the game's page on Google Play. After some wins, the game may also show Google Play's own rating window. Your rating and review go to Google Play under your Google Account, like any other review on the store. The game does not see or receive them.
+
+### 6. What we do not do
+
+- The game does not collect your name, email address, phone number, precise location, contacts or photos. We only get your email address if you write to us.
 - We do not run our own servers, accounts or tracking. The developer does not receive your advertising ID.
 - We do not sell data. We do not show ads you did not choose to watch.
 
-### 6. Security
+### 7. Security
 
 - Data sent by Google Play Games Services and by the Google Mobile Ads SDK is encrypted in transit (TLS / HTTPS).
 - The developer does not run servers that store your data.
+- Emails you send to [support@playvyngames.com](mailto:support@playvyngames.com) are forwarded by our domain provider to our mailbox at Google (Gmail).
 
-### 7. Retention and deletion
+### 8. Retention and deletion
 
 | Data | Kept until |
 |---|---|
@@ -89,21 +95,21 @@ Google Play may collect crash and performance reports (Android vitals) as allowe
 | Google Play Games data | Google keeps it until you delete it (links above) |
 | Ad data collected by Google AdMob | Google keeps it under the Google Privacy Policy; you can reset or delete your advertising ID in Android settings |
 | Totals in Google Play Console and AdMob | These cannot identify you |
-| Your email, if you write to us | We keep it only as long as needed to answer, and delete it at the latest 12 months after your request is resolved |
+| Your email and the details in it, if you write to us | We keep it only as long as needed to answer, and delete it at the latest 12 months after your request is resolved |
 
-### 8. Children
+### 9. Children
 
-Duskbanner is intended for players aged 13 and over. It is not directed at children under 13, and the developer does not knowingly collect data from them. Ad requests are not tagged as directed at children, and the ad content is limited to the "PG" (Parental Guidance) rating or lower.
+Duskbanner is intended for players aged 13 and over. It is not directed at children under 13, and the developer does not knowingly collect data from them. Ad requests are not tagged as directed at children, and the ad content is limited to the "T" (Teen) rating or lower.
 
-### 9. Your rights
+### 10. Your rights
 
-Depending on where you live, you may have the right to access, correct or delete your personal data, and to object to or withdraw consent for its use. This includes the EU GDPR.
+Depending on where you live, you may have the right to access, correct or delete your personal data, and to object to or withdraw consent for its use.
 
-- The developer holds no personal data about you.
+- The developer holds no personal data about you, except emails you send us. You can ask us to delete them at any time.
 - Play Games data is controlled through your Play Games profile and Google Account (links above).
 - Ad consent can be changed in **Settings → Ad privacy options** (where required); your advertising ID can be reset or deleted in Android settings.
 - For any other question or request, write to [support@playvyngames.com](mailto:support@playvyngames.com).
 
-### 10. Changes
+### 11. Changes
 
 If this policy changes, we will update this page and the "Last updated" date. The in-game summary (Settings → Privacy) will also be updated.
