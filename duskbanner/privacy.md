@@ -6,7 +6,7 @@ description: How the Android game Duskbanner by PlayVyn Games handles your data.
 
 # Privacy Policy — Duskbanner
 
-*Last updated: 16 October 2026*
+*Last updated: 27 October 2026*
 
 This privacy policy explains how the game **Duskbanner** for Android, published on Google Play by **PlayVyn Games**, handles your data.
 
@@ -59,6 +59,8 @@ The ads are served by **Google AdMob** (Google Mobile Ads SDK). When the ad serv
 - **device identifiers**: your Android advertising ID and app set ID.
 
 Google uses this data to show and measure ads, for analytics and to prevent fraud, under the [Google Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites). The developer does not receive this data; AdMob only shows the developer totals (for example how many ads were watched).
+
+To fill an ad, Google may run a real-time auction in which other advertising companies bid through Google's systems. For this auction, Google may share some of the data above with those companies: your approximate location, device and app information and, where you allow it, your advertising ID. Those companies use it under their own privacy policies. Where the consent form is shown, you can see the list of ad partners in it. The game contains no ad SDK other than Google's, and the developer does not receive this data.
 
 **Your choices:**
 
