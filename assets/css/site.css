@@ -91,6 +91,8 @@ a:hover { color: var(--gold-hi); }
 .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; padding-bottom: 8px; }
 .shots a { display: block; line-height: 0; background: #000; border: 2px solid var(--outline); box-shadow: var(--shadow); }
 .shots img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.shots--tall { grid-template-columns: repeat(3, minmax(0, 264px)); }
+.shots--tall img { aspect-ratio: 9 / 16; }
 .game-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 36px; padding-top: 20px; border-top: 2px solid var(--line); }
 
 
@@ -126,6 +128,9 @@ a:hover { color: var(--gold-hi); }
   .brand { font-size: 25px; }
   .nav a { font-size: 21px; padding: 8px; }
   .card { flex-direction: column; }
+  .shots--tall { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 72%; overflow-x: auto;
+    scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); padding-bottom: 14px; }
+  .shots--tall a { scroll-snap-align: start; }
   .section-title { font-size: 38px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }

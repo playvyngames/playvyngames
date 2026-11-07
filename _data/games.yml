@@ -14,3 +14,19 @@
       alt: The knight's Sword Storm ultimate against skeletons and the Bone Lord in the graveyard
     - src: /assets/img/games/duskbanner/shot-3.webp
       alt: The monk's golden palm and a soul field on the frozen map
+- id: oopsbloom
+  name: Oopsbloom
+  genre: Cozy pixel-art climbing game · Android
+  tagline: Every fall leaves a seed that blooms into a plant to help you climb.
+  icon: /assets/img/games/oopsbloom/icon.png
+  page: /oopsbloom/
+  privacy: /oopsbloom/privacy.html
+  play_url: ""
+  shots_tall: true
+  shots:
+    - src: /assets/img/games/oopsbloom/shot-1.png
+      alt: "Sprout just fell: a glowing seed sleeps in the gap it missed, above a green vine."
+    - src: /assets/img/games/oopsbloom/shot-2.png
+      alt: "Dawn on the cliff: a vine, a red mushroom and a dandelion have bloomed in the gaps where Sprout fell."
+    - src: /assets/img/games/oopsbloom/shot-3.png
+      alt: "Sprout climbed a green vine growing in the gap and reached the ledge."

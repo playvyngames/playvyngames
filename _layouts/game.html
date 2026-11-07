@@ -14,8 +14,8 @@ layout: default
   </div>
 </section>
 {% if g.shots %}
-<section class="wrap section shots" aria-label="Screenshots">
-  {% for s in g.shots %}<a href="{{ s.src | relative_url }}"><img src="{{ s.src | relative_url }}" alt="{{ s.alt }}" width="1280" height="720" loading="lazy"></a>{% endfor %}
+<section class="wrap section shots{% if g.shots_tall %} shots--tall{% endif %}" aria-label="Screenshots">
+  {% for s in g.shots %}<a href="{{ s.src | relative_url }}"><img src="{{ s.src | relative_url }}" alt="{{ s.alt }}" {% if g.shots_tall %}width="1080" height="1920"{% else %}width="1280" height="720"{% endif %} loading="lazy"></a>{% endfor %}
 </section>
 {% endif %}
 <article class="wrap prose prose--game">
