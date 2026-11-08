@@ -6,7 +6,7 @@ description: How the Android game Duskbanner by PlayVyn Games handles your data.
 
 # Privacy Policy — Duskbanner
 
-*Last updated: 27 October 2026*
+*Last updated: 8 November 2026*
 
 This privacy policy explains how the game **Duskbanner** for Android, published on Google Play by **PlayVyn Games**, handles your data.
 
@@ -72,10 +72,11 @@ To fill an ad, Google may run a real-time auction in which other advertising com
 
 Google Play may collect crash and performance reports (Android vitals) as allowed by your device settings. The developer uses them only to fix bugs and improve performance. These reports do not tell the developer who you are.
 
-### 5. Support email and ratings
+### 5. Support email, ratings and sharing
 
 - **Support email.** If you tap **Settings → Support**, the game opens your own email app with a new message to [support@playvyngames.com](mailto:support@playvyngames.com). The message is pre-filled with technical details that help us fix problems: game version, Android version, device model, WebView version, screen size, language and graphics quality setting. Nothing is sent until you press send in your email app, and you can edit or delete any of it first. If you send it, we receive your email address, your message and those details, and use them only to answer you.
 - **Ratings.** **Settings → Rate us** opens the game's page on Google Play. After some wins, the game may also show Google Play's own rating window. Your rating and review go to Google Play under your Google Account, like any other review on the store. The game does not see or receive them.
+- **Sharing a result** (version 1.0.4 and later). The **Share** button on the end-of-run screen draws a picture of the run (such as hero, map, time, kills and level; nothing about you), saves it in the game's cache on your device (the next share replaces it, and Android can clear it at any time), and opens Android's share menu with a short text and a link to our website. Nothing is shared until you pick an app and send it. What you share goes to the app and people you choose, under their terms; the game and the developer do not receive it. When someone opens the link, our website sends them to the game's Google Play page with a code that only says the visit came from a shared result, so Google Play Console can show the developer how many installs came from shared links, as totals.
 
 ### 6. What we do not do
 

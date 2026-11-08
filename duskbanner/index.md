@@ -21,7 +21,7 @@ Night falls and the horde never stops. Move with one thumb while your weapons at
 
 {% assign g = site.data.games | where: "id", "duskbanner" | first %}{% if g.play_url and g.play_url != "" %}
 <script>
-// In-game share links (Duskbanner 1.0.5+) add ?s=<spot>. Only those links go straight to Google Play, with a UTM referrer.
+// In-game share links (Duskbanner 1.0.4+) add ?s=<spot>. Only those links go straight to Google Play, with a UTM referrer.
 // No ?s= -> normal page. No redirect on iPhone/iPad (including iPadOS desktop mode) or when coming from this website.
 (function () {
   var s = new URLSearchParams(location.search).get('s');
