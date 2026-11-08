@@ -6,7 +6,7 @@ description: How the Android game Oopsbloom by PlayVyn Games handles your data.
 
 # Privacy Policy — Oopsbloom
 
-*Last updated: 7 November 2026*
+*Last updated: 9 November 2026*
 
 This privacy policy explains how the game **Oopsbloom** for Android, published on Google Play by **PlayVyn Games** ("we", "us"), handles your data.
 
@@ -36,7 +36,6 @@ The game saves the following in its own app storage on your device:
 
 This data stays on your device, and the game does not send it to us.
 
-- **Backup code.** You can create a text backup code of your garden in **Settings** and paste it into the game on another device. The code is created on your device. The game does not upload it anywhere. If you copy it or send it somewhere, keep it like a save file.
 - **Android backup.** If Android backup is turned on, Android may keep a copy of the game's data in your device backup in your Google Account. Google manages that backup, not us.
 - **Deleting it.** Uninstalling the game, or clearing its data in Android settings, deletes this data from your device.
 
@@ -86,10 +85,9 @@ We use **Google Analytics for Firebase** and **Firebase Crashlytics** to underst
   - which screens you open, and which settings you change;
   - whether you agreed to bloom reminders;
   - whether you shared a garden card;
-  - whether you created or restored a backup code (never the code itself);
   - an ad offered, shown, watched or declined, and whether you left the game shortly after an ad.
 
-  Events contain only numbers and short codes: no free text, no name and no backup code.
+  Events contain only numbers and short codes: no free text and no name.
 - **Device and app information:** device model, Android version, language, app version and build, screen size, and how many days ago you installed the game.
 - **Identifiers:**
   - a random **app-instance ID** created by Firebase for this installation;
